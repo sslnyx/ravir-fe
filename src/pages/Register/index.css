@@ -1,0 +1,32 @@
+.page-register {
+  @apply text-[16px];
+}
+
+.page-register label {
+  @apply p-[11px];
+}
+
+.page-register h1 {
+  @apply text-5xl mb-5 last:mb-0 font-serif;
+}
+
+.page-register h2 {
+  @apply md:text-[60px] md:leading-[60px] font-serif;
+}
+
+.page-register h3 {
+  @apply text-2xl font-serif;
+}
+
+.page-register p {
+  @apply mb-[12px] last:mb-0;
+}
+
+.page-register section {
+  @apply py-[40px];
+}
+
+.page-register [type="checkbox"],
+.page-register [type="radio"] {
+  @apply w-[20px] h-[20px];
+}

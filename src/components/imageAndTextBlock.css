@@ -1,0 +1,7 @@
+.crop-left {
+  clip-path: polygon(0 0, 100% 0, 61.5% 100%, 0% 100%);
+}
+
+.crop-right {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 38.5% 100%);
+}

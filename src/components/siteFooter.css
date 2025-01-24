@@ -1,0 +1,9 @@
+/* footer .container {
+    @apply translate-x-0
+}
+
+@media screen and (min-width: 1440px) {
+    footer .container {
+        @apply -translate-x-[100px]
+    }
+} */

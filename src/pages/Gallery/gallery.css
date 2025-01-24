@@ -1,0 +1,115 @@
+.arrow {
+  /* width: 30px;
+  height: 30px; */
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  fill: #fff;
+  cursor: pointer;
+  @apply w-[30px] h-[30px] md:w-[50px] md:h-[50px];
+}
+
+.arrow--left {
+  @apply left-[10px] md:left-[50px];
+}
+
+.arrow--right {
+  left: auto;
+  @apply right-[10px] md:right-[50px];
+}
+
+.arrow--disabled {
+  fill: rgba(255, 255, 255, 0.5);
+}
+
+.page-gallery .keen-slider {
+  @apply !overflow-visible;
+}
+
+.page-gallery .keen-slider__slide {
+  @apply !overflow-visible pointer-events-none;
+}
+
+.page-gallery .keen-slider__slide .gallery-img {
+  @apply scale-100 transition-all duration-700 brightness-50;
+}
+
+.page-gallery .keen-slider__slide.active {
+  @apply relative z-10 pointer-events-auto cursor-pointer;
+}
+
+.page-gallery .keen-slider__slide.active .gallery-img {
+  @apply scale-125 z-10 relative brightness-100;
+}
+
+.page-gallery .keen-slider__slide .expendIcon {
+  @apply opacity-0 z-10 transition-opacity duration-700;
+}
+
+.page-gallery .keen-slider__slide.active .expendIcon {
+  @apply opacity-100 delay-500;
+}
+
+
+.page-gallery .gallery-tabs path {
+  pointer-events: none;
+}
+
+/* .page-gallery .expendIcon img {
+  @apply opacity-[0%] transition-opacity duration-700;
+}
+
+.keen-slider__slide:hover .expendIcon img {
+  @apply opacity-[100%];
+} */
+
+.tab {
+  @apply !pointer-events-auto cursor-pointer hover:fill-orange transition-all duration-500;
+}
+
+.dots {
+  display: flex;
+  padding: 10px 0;
+  justify-content: center;
+}
+
+.dot {
+  border: none;
+  background: #dcd1c7;
+  /* border-radius: 50%; */
+  /* margin: 0 5px; */
+  /* padding: 5px; */
+  cursor: pointer;
+  @apply md:w-[35px] w-[20px] h-[8px] md:h-[10px]
+}
+
+.dot:focus {
+  outline: none;
+}
+
+.dot.active {
+  /* background: #000; */
+  @apply bg-orange;
+}
+
+.gallery-tabs g.active .tab {
+  @apply fill-orange;
+}
+
+.gallery-tabs g.active .fil2 {
+  @apply fill-white;
+}
+
+#amenity:hover g.text path {
+  @apply fill-white;
+}
+
+#exterior:hover g.text path {
+  @apply fill-white;
+}
+
+
+#interior:hover g.text path {
+  @apply fill-white;
+}

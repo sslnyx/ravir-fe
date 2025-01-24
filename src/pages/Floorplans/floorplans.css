@@ -1,0 +1,55 @@
+#unittype .filb2,
+#unittype .filb1,
+.bed-btn-wrapper .filb1 {
+  @apply transition-all duration-700 cursor-pointer;
+}
+
+#unittype .active .filb2,
+.bed-btn-wrapper .active .filb2 {
+  @apply fill-white;
+}
+
+#unittype .active .filb1,
+.bed-btn-wrapper .active .filb1 {
+  @apply fill-orange;
+}
+
+.bed-btn-wrapper .filb2 {
+  @apply pointer-events-none;
+}
+
+.fil-bg {
+  @apply transition-all duration-500;
+}
+
+.level-container .active .fil-bg {
+  @apply !fill-orange/50;
+}
+
+.floorplan-wrapper:hover .expIcon {
+  @apply md:opacity-100;
+}
+
+.fp-modal-wrapper .arrow path {
+  @apply fill-orange;
+}
+
+.fp-modal-wrapper .arrow.arrow--disabled path {
+  @apply fill-orange/20 pointer-events-none;
+}
+
+.fp-modal-wrapper .arrow {
+  @apply w-[25px] md:w-[35px] box-content p-3;
+}
+
+.fp-modal-wrapper .arrow--right {
+  @apply -mr-3 md:right-5;
+}
+
+.fp-modal-wrapper .arrow--left {
+  @apply -ml-3 md:left-5;
+}
+
+.page-floorplan select {
+  @apply appearance-none;
+}

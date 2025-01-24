@@ -1,0 +1,62 @@
+.admin-sec:nth-child(2n) .img-wrapper {
+  @apply -left-[0];
+}
+
+.admin-sec:nth-child(2n-1) .img-wrapper {
+  @apply -right-[0];
+}
+
+.admin-sec:nth-child(2n-1) .title-bg {
+  clip-path: polygon(100px 0, 100% 0, 100% 100%, 0% 100%);
+  @apply left-[calc(100%-350px)] md:left-[calc(100%-400px)] 
+}
+
+.admin-sec:nth-child(2n) .title-bg {
+  clip-path: polygon(0 0, calc(100% - 100px) 0, 100% 100%, 0% 100%);
+  @apply right-[calc(100%-350px)] md:right-[calc(100%-400px)];
+}
+
+
+.admin-sec:nth-child(2n-1) h2{
+  @apply text-right
+}
+
+.admin-sec:nth-child(2n-1) .title-wrapper{
+  @apply justify-end
+}
+
+.admin-sec:nth-child(2n) .title-wrapper{
+  @apply justify-start
+}
+
+
+
+.admin-sec:nth-child(1) .aImg {
+  @apply object-[30%_50%] object-cover w-full;
+}
+
+.admin-sec:nth-child(1) .aRing {
+  @apply -left-[450px] -bottom-[0px] w-[650px];
+}
+
+.admin-sec:nth-child(2) .aRing {
+  @apply -right-[450px] -bottom-[0px] w-[650px];
+}
+
+/* .admin-sec .img-wrapper .btnExpand {
+  @apply md:opacity-0 transition-all duration-700;
+} */
+
+/* .admin-sec .img-wrapper:hover .btnExpand {
+  @apply opacity-100;
+} */
+
+@media only screen and (min-width: 768px) {
+  .admin-sec:nth-child(2n-1) .title-bg {
+    clip-path: polygon(150px 0, 100% 0, 100% 100%, 0% 100%);
+  }
+  
+  .admin-sec:nth-child(2n) .title-bg {
+    clip-path: polygon(0 0, calc(100% - 150px) 0, 100% 100%, 0% 100%);
+  }
+}

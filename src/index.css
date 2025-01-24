@@ -1,0 +1,115 @@
+@import url("/src/assets/fonts/stylesheet.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    @apply text-[16px];
+  }
+
+  body {
+    @apply font-[300] text-brown;
+  }
+
+  #root {
+    @apply overflow-hidden;
+  }
+
+  .container {
+    @apply max-w-[1200px] mx-auto px-[22px];
+  }
+
+  h1 {
+    @apply text-5xl mb-5 last:mb-0 font-serif;
+  }
+
+  h2 {
+    @apply text-3xl md:text-4xl font-serif;
+  }
+
+  h3 {
+    @apply text-2xl font-serif;
+  }
+
+  p {
+    @apply mb-3 last:mb-0;
+  }
+
+  section {
+    @apply py-12;
+  }
+
+  .page-privacy-policy ul {
+    @apply list-disc pl-4 mb-5;
+  }
+
+  .p5,
+  .p3 {
+    @apply font-serif font-bold;
+  }
+
+  .page-privacy-policy a {
+    @apply underline;
+  }
+
+  .page-register {
+    @apply bg-lightGray;
+  }
+
+  [data-floating-ui-scroll-lock] nav {
+    @apply lg:pr-[15px];
+  }
+}
+
+.scroll-container::-webkit-scrollbar {
+  -webkit-appearance: none;
+  display: none;
+}
+
+.gm-style-iw-ch {
+  display: none !important;
+}
+
+.gm-style .gm-style-iw-c {
+  padding-right: 30px !important;
+  padding-bottom: 0px !important;
+  min-height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gm-style-iw-chr {
+  position: absolute !important;
+  right: 0;
+}
+
+.gm-style .gm-style-iw-d {
+  padding-right: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  overflow: hidden !important;
+}
+
+:focus-visible {
+  @apply outline-none;
+}
+
+[data-floating-ui-portal] .h-screen {
+  @apply h-[100svh] overflow-auto;
+}
+
+/* Lock body overflow when modal is open */
+body.modal-open {
+  overflow: hidden;
+}
+
+@media screen and (max-width: 768px) {
+  .scroll-container::-webkit-scrollbar {
+    -webkit-appearance: none;
+    display: none;
+  }
+}
+

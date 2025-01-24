@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Baskerville Win95BT';
+    src: url('BaskervilleBT-Bold.eot');
+    src: url('BaskervilleBT-Bold.eot?#iefix') format('embedded-opentype'),
+        url('BaskervilleBT-Bold.woff2') format('woff2'),
+        url('BaskervilleBT-Bold.woff') format('woff'),
+        url('BaskervilleBT-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans';
+    src: url('DMSans-Regular.eot');
+    src: url('DMSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('DMSans-Regular.woff2') format('woff2'),
+        url('DMSans-Regular.woff') format('woff'),
+        url('DMSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans';
+    src: url('DMSans-Medium.eot');
+    src: url('DMSans-Medium.eot?#iefix') format('embedded-opentype'),
+        url('DMSans-Medium.woff2') format('woff2'),
+        url('DMSans-Medium.woff') format('woff'),
+        url('DMSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans';
+    src: url('DMSans-Bold.eot');
+    src: url('DMSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('DMSans-Bold.woff2') format('woff2'),
+        url('DMSans-Bold.woff') format('woff'),
+        url('DMSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Baskerville Win95BT';
+    src: url('BaskervilleBT-Roman.eot');
+    src: url('BaskervilleBT-Roman.eot?#iefix') format('embedded-opentype'),
+        url('BaskervilleBT-Roman.woff2') format('woff2'),
+        url('BaskervilleBT-Roman.woff') format('woff'),
+        url('BaskervilleBT-Roman.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans';
+    src: url('DMSans-Light.eot');
+    src: url('DMSans-Light.eot?#iefix') format('embedded-opentype'),
+        url('DMSans-Light.woff2') format('woff2'),
+        url('DMSans-Light.woff') format('woff'),
+        url('DMSans-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+

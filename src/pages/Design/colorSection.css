@@ -1,0 +1,30 @@
+.img-sec {
+  clip-path: polygon(0 0, 0% 0, 0% 100%, 0 100%);
+}
+
+.active-img {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+[alt="ring"] {
+  @apply hidden md:block;
+}
+
+.clip {
+  clip-path: polygon(40px 0%, 100% 0%, calc(100% - 40px) 100%, 0% 100%);
+}
+
+.clip:first-child {
+  clip-path: polygon(0px 0%, 100% 0%, calc(100% - 40px) 100%, 0% 100%);
+  @apply pl-[20px];
+}
+
+.clip:last-child {
+  clip-path: polygon(40px 0%, 100% 0%, 100% 100%, 0% 100%);
+  @apply pr-[20px];
+}
+
+.clip-btn {
+  clip-path: polygon(0 0%, 100% 0%, calc(100% - 40px) 100%, 0% 100%);
+  @apply pr-[80px];
+}
